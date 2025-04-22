@@ -1,0 +1,2 @@
+# Harnessing-decentralized-and-generative-AI-for-secure-privacy-pollution-insights
+This project combines generative AI and decentralized learning for privacy-preserving air pollution analysis. It focuses on NO, NO₂, and NOₓ pollutants, generating synthetic data from real measurements to protect privacy. A comparative analysis evaluates the performance of synthetic vs. real data in pollution modeling.
