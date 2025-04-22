@@ -18,3 +18,16 @@ The proposed framework presents a comparative  study for air pollutant predictio
 
 One branch utilizes the cleaned real data, while the other employs a generative diffusion model to produce synthetic data, by strengthening dataset diversity and aiding in model generalization. Both data sets are used to train a variety of deep learning models, including LSTM, GRU, BILSTM, BIGRU, and Transformer-based hybrid models. The trained models are deployed across distributed clients in a federated learning setup. A central server coordinates the training by aggregating model updates from each client, preserving data privacy and enabling collaborative learning. Finally, the system evaluates performance using standard metrics such as MSE, RMSE, MAE, and R² to assess accuracy. This architecture ensures robust, scalable, and privacy-preserving pollutant level prediction across multiple urban locations.
 
+#Results
+
+ Performance of Real and Synthetic Data 
+
+ ![Screenshot 2025-04-22 221318](https://github.com/user-attachments/assets/c691d7d6-0851-48e8-ab7f-f5ddd1fac147)
+
+Results of Federated Learning For Real Data
+
+![Screenshot 2025-04-22 221119](https://github.com/user-attachments/assets/925af82a-87da-4eb3-b1aa-c35b9c682da0)
+
+Results of Federated Learning For Synthetic Data
+
+![Screenshot 2025-04-22 221140](https://github.com/user-attachments/assets/f35799aa-4733-4742-baaf-f0baf1e9c95c)
