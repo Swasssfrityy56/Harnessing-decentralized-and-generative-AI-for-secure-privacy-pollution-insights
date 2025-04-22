@@ -4,6 +4,9 @@
 # Methodlogy
  The dataset used in this project comprises of data from different southern cities of India namely Amaravathi, Bangalore, Chennai, Hyderabad and Thiruvananthapuram which consists of 22784, 48192, 48192, 48107 and 26654 respectively. The total dataset of the five cities comprises of 193929 samples and 5 attributes individually in each city. <br>
       This dataset is based on regression which uses continuous timeseries data in hourly basis. According to the observation the data of each city contained outliers and missing values, as 
-shown in figure .
+shown in the below figure. The images are the example of graphical representation of removal of outliers and missing values of bangalore dataset.
 
 ![image](https://github.com/user-attachments/assets/6941ac7b-48bd-4e60-8dea-c3b80f390b56)
+
+![image](https://github.com/user-attachments/assets/fdafc92d-f9be-4aca-b9c6-f2673864f2ad)
+
