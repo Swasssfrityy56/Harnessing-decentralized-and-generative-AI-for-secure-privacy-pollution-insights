@@ -10,3 +10,11 @@ shown in the below figure. The images are the example of graphical representatio
 
 ![image](https://github.com/user-attachments/assets/fdafc92d-f9be-4aca-b9c6-f2673864f2ad)
 
+Flowchart
+
+![image](https://github.com/user-attachments/assets/c4afefa0-6e2f-415c-949a-b801689d257d)
+
+The proposed framework presents a comparative  study for air pollutant prediction using both real and synthetic data within a federated learning environment. The system begins with the preparation of datasets collected from five major Indian cities: Amaravati, Bengaluru, Chennai, Hyderabad, and Thiruvananthapuram. These datasets undergo preprocessing to handle outliers and missing values, ensuring data quality. Post preprocessing, the data is divided into two branches. 
+
+One branch utilizes the cleaned real data, while the other employs a generative diffusion model to produce synthetic data, by strengthening dataset diversity and aiding in model generalization. Both data sets are used to train a variety of deep learning models, including LSTM, GRU, BILSTM, BIGRU, and Transformer-based hybrid models. The trained models are deployed across distributed clients in a federated learning setup. A central server coordinates the training by aggregating model updates from each client, preserving data privacy and enabling collaborative learning. Finally, the system evaluates performance using standard metrics such as MSE, RMSE, MAE, and R² to assess accuracy. This architecture ensures robust, scalable, and privacy-preserving pollutant level prediction across multiple urban locations.
+
